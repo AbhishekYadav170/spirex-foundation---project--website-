@@ -209,3 +209,4 @@ if (footerYear) {
 console.log(
     "SpireX Foundation website loaded successfully."
 );
+
