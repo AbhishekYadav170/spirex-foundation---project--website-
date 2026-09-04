@@ -11,8 +11,12 @@ if (navToggle && navMenu) {
         });
     });
 }
+
+
 const tabs = document.querySelectorAll(".tab");
 const tabContents = document.querySelectorAll(".tab-content");
+
+
 tabs.forEach(function (tab) {
     tab.addEventListener("click", function () {
         const targetId = tab.getAttribute("data-target");
