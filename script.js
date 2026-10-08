@@ -1,5 +1,7 @@
 const navToggle = document.getElementById("navToggle");
 const navMenu = document.getElementById("navMenu");
+
+
 if (navToggle && navMenu) {
     navToggle.addEventListener("click", function () {
         navMenu.classList.toggle("show");
@@ -175,12 +177,14 @@ faqQuestions.forEach(function (question) {
     });
 });
 
+
 const programButtons =document.querySelectorAll(".m5-program-card button");
 programButtons.forEach(function (button) {
     button.addEventListener("click", function () {
         document.getElementById("internship").scrollIntoView({ behavior: "smooth" });
     });
 });
+
 
 const projectButtons = document.querySelectorAll(".m5-project-card button");
 projectButtons.forEach(function (button) {
@@ -190,6 +194,7 @@ projectButtons.forEach(function (button) {
         );
     });
 });
+
 
 window.addEventListener("scroll", function () {
     const navbar =document.querySelector(".navbar");
@@ -203,6 +208,7 @@ window.addEventListener("scroll", function () {
         navbar.style.boxShadow ="0 4px 18px rgba(0, 0, 0, 0.15)";
     }
 });
+
 
 const footerYear =document.querySelector(".footer-bottom p");
 if (footerYear) {
