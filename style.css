@@ -235,7 +235,7 @@ section {
 /* HOME STATS */
 
 .stats {
-    width: min(1180px, 90%);
+    width: min(1181px, 90%);
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -265,7 +265,7 @@ section {
 .why-section {
     background: #ffffff;
     color: #102a43;
-    padding: 85px 6%;
+    padding: 86px 6%;
 }
 .section-heading {
     text-align: center;
